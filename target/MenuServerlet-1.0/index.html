@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operaciones</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="recursos/estilos.css"/>     
+    </head>
+    <body>
+        <form action="/MenuServerlet/Servlet" method="post">
+            <table width="600" id="enfasis-columna">
+                <caption>Operaciones </caption>
+                
+                
+                <tr>
+                    <td class="columna">
+                        Seleccionar operacion:                       
+                    </td>
+                    <td width="400">
+                        <input type="radio" name="operacion" value="F"> Fórmula General
+                        &nbsp;&nbsp;&nbsp;
+                        <br>
+                        <input class="input-field" type="text" name="valorA" placeholder="Introduzca el primer valor">
+                        <br>
+                        <input class="input-field" type="text" name="valorB" placeholder="Introduzca el segundo valor">
+                        <br>
+                        <input class="input-field" type="text" name="valorC" placeholder="Introduzca el tercer valor">
+                        <br>                       
+                        <input type="radio" name="operacion" value="P"> Números Primos
+                        &nbsp;&nbsp;&nbsp;
+                        <br>
+                        <input class="input-field" type="text" name="valorN" placeholder="Introduzca el valor">
+                        <br>
+                        <input type="radio" name="operacion" value="T"> Determinar Tipo de Triangulo
+                        <br>
+                        <input class="input-field" type="text" name="lado1" placeholder="Introduzca el primer valor">
+                        <br>
+                        <input class="input-field" type="text" name="lado2" placeholder="Introduzca el segundo valor">
+                        <br>
+                        <input class="input-field" type="text" name="lado3" placeholder="Introduzca el tercer valor">
+                        <br>
+                    </td>
+                </tr>
+               
+                <tr style="text-align: center">
+                    <td>
+                            
+                        <input type="submit" value="Enviar" class="default">
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>
